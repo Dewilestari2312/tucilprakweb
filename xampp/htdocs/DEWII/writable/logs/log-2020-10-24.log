@@ -1,0 +1,20 @@
+CRITICAL - 2020-10-24 00:50:29 --> Invalid file: Mahasiswa/header.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Mahasiswa/heade...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Mahasiswa/heade...', Array, true)
+#2 C:\xampp\htdocs\DEWII\app\Config\Routes.php(36): view('Mahasiswa/heade...')
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(859): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-24 00:51:03 --> Invalid file: mahasiswa/header.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/heade...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('mahasiswa/heade...', Array, true)
+#2 C:\xampp\htdocs\DEWII\app\Config\Routes.php(36): view('mahasiswa/heade...')
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(859): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,147 @@
+CRITICAL - 2020-11-17 07:27:33 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Home/login')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('Home/login')
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-17 07:31:42 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:31:53 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:33:09 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:36:56 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2020-11-17 07:37:15 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:38:01 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2020-11-17 07:38:30 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2020-11-17 07:39:13 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:39:56 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:44:13 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:47:54 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:48:48 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:59:09 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-17 07:59:57 --> Invalid file: Layout/template.php
+#0 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/template...')
+#1 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('Layout/template', Array, true)
+#2 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('Login', Array, true)
+#3 C:\xampp\htdocs\DEWII\app\Controllers\Home.php(11): view('Login')
+#4 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->Login()
+#5 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\DEWII\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\DEWII\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
